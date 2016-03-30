@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 6cfa4f6f09b1b0b4c808fe1e76624add
+timeCreated: 1458569860
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: belly_ctrl
+    100002: belly_ctrl_fixGrp
+    100004: breast_j
+    100006: chin_j
+    100008: head_tip_J
+    100010: l_thumb_base
+    100012: left_ankle_j
+    100014: left_ball_j
+    100016: left_clavical_j
+    100018: left_elbow_j
+    100020: left_hand_ctrl
+    100022: left_hand_ctrl_fixgrp
+    100024: left_hand_j
+    100026: left_hip_j
+    100028: left_knee_J
+    100030: left_mitten1_j
+    100032: left_mitten2_j
+    100034: left_mitten3_j
+    100036: left_shoulder_J
+    100038: left_thumb1_j
+    100040: left_thumb2_j
+    100042: left_thumb3_j
+    100044: left_toe_j
+    100046: neck_j
+    100048: r_thumb_base
+    100050: //RootNode
+    100052: right_ankle_j
+    100054: right_ball_j
+    100056: right_clavical_j
+    100058: right_elbow_j
+    100060: right_hand_ctrl
+    100062: right_hand_ctrl_fixgrp
+    100064: right_hand_j
+    100066: right_hip_j
+    100068: right_knee_J
+    100070: right_mitten1_j
+    100072: right_mitten2_j
+    100074: right_mitten3_j
+    100076: right_shoulder_j
+    100078: right_thumb1_J
+    100080: right_thumb2_j
+    100082: right_thumb3_j
+    100084: right_toe_j
+    100086: root_ctrl
+    100088: root_j
+    100090: spine1_j
+    100092: spine2_ctrl
+    100094: spine2_ctrl_fixGrp
+    100096: spine2_j
+    400000: belly_ctrl
+    400002: belly_ctrl_fixGrp
+    400004: breast_j
+    400006: chin_j
+    400008: head_tip_J
+    400010: l_thumb_base
+    400012: left_ankle_j
+    400014: left_ball_j
+    400016: left_clavical_j
+    400018: left_elbow_j
+    400020: left_hand_ctrl
+    400022: left_hand_ctrl_fixgrp
+    400024: left_hand_j
+    400026: left_hip_j
+    400028: left_knee_J
+    400030: left_mitten1_j
+    400032: left_mitten2_j
+    400034: left_mitten3_j
+    400036: left_shoulder_J
+    400038: left_thumb1_j
+    400040: left_thumb2_j
+    400042: left_thumb3_j
+    400044: left_toe_j
+    400046: neck_j
+    400048: r_thumb_base
+    400050: //RootNode
+    400052: right_ankle_j
+    400054: right_ball_j
+    400056: right_clavical_j
+    400058: right_elbow_j
+    400060: right_hand_ctrl
+    400062: right_hand_ctrl_fixgrp
+    400064: right_hand_j
+    400066: right_hip_j
+    400068: right_knee_J
+    400070: right_mitten1_j
+    400072: right_mitten2_j
+    400074: right_mitten3_j
+    400076: right_shoulder_j
+    400078: right_thumb1_J
+    400080: right_thumb2_j
+    400082: right_thumb3_j
+    400084: right_toe_j
+    400086: root_ctrl
+    400088: root_j
+    400090: spine1_j
+    400092: spine2_ctrl
+    400094: spine2_ctrl_fixGrp
+    400096: spine2_j
+    7400000: RD_Jogging
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RD_Jogging
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: belly_ctrl_fixGrp
+        weight: 1
+      - path: belly_ctrl_fixGrp/belly_ctrl
+        weight: 1
+      - path: left_hand_ctrl_fixgrp
+        weight: 1
+      - path: left_hand_ctrl_fixgrp/left_hand_ctrl
+        weight: 1
+      - path: right_hand_ctrl_fixgrp
+        weight: 1
+      - path: right_hand_ctrl_fixgrp/right_hand_ctrl
+        weight: 1
+      - path: root_ctrl
+        weight: 1
+      - path: root_j
+        weight: 1
+      - path: root_j/left_hip_j
+        weight: 1
+      - path: root_j/left_hip_j/left_knee_J
+        weight: 1
+      - path: root_j/left_hip_j/left_knee_J/left_ankle_j
+        weight: 1
+      - path: root_j/left_hip_j/left_knee_J/left_ankle_j/left_ball_j
+        weight: 1
+      - path: root_j/left_hip_j/left_knee_J/left_ankle_j/left_ball_j/left_toe_j
+        weight: 1
+      - path: root_j/right_hip_j
+        weight: 1
+      - path: root_j/right_hip_j/right_knee_J
+        weight: 1
+      - path: root_j/right_hip_j/right_knee_J/right_ankle_j
+        weight: 1
+      - path: root_j/right_hip_j/right_knee_J/right_ankle_j/right_ball_j
+        weight: 1
+      - path: root_j/right_hip_j/right_knee_J/right_ankle_j/right_ball_j/right_toe_j
+        weight: 1
+      - path: root_j/spine1_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/l_thumb_base
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/l_thumb_base/left_thumb1_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/l_thumb_base/left_thumb1_j/left_thumb2_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/l_thumb_base/left_thumb1_j/left_thumb2_j/left_thumb3_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/left_mitten1_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/left_mitten1_j/left_mitten2_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/left_clavical_j/left_shoulder_J/left_elbow_j/left_hand_j/left_mitten1_j/left_mitten2_j/left_mitten3_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/neck_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/neck_j/chin_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/neck_j/chin_j/head_tip_J
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/r_thumb_base
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/r_thumb_base/right_thumb1_J
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/r_thumb_base/right_thumb1_J/right_thumb2_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/r_thumb_base/right_thumb1_J/right_thumb2_j/right_thumb3_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/right_mitten1_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/right_mitten1_j/right_mitten2_j
+        weight: 1
+      - path: root_j/spine1_j/spine2_j/breast_j/right_clavical_j/right_shoulder_j/right_elbow_j/right_hand_j/right_mitten1_j/right_mitten2_j/right_mitten3_j
+        weight: 1
+      - path: spine2_ctrl_fixGrp
+        weight: 1
+      - path: spine2_ctrl_fixGrp/spine2_ctrl
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 20
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
